@@ -1,0 +1,36 @@
+--------------------------------------------
+Chapter 2
+--------------------------------------------
+
+-----------
+Conceptual
+-----------
+
+1.
+(a) - Better: A more flexible model can fit the high number of n better, while the low number of predictors makes overfitting less likely.
+
+(b) - Worse: The reverse of (a), where the low n makes if more likely that the model is fit to noise contained in the data.
+
+(c) - Better: A simpler model would not be able to fit to the more complex relationship of the data
+
+(d) - Worse: More flexible models have higher variance and this would overfit to the noise.
+
+
+2.
+(a) - Regression: We are interested in a potentially infinitely finely graded numerical value (CEO salary), which is better answered in a regression task.
+      Inference: We want to understand the relationship between predictor variables and salary.
+      n --> 500 firms
+      p --> profit, #empolyees, industry
+
+(b) - Classification: We have two conditions, success and failure, and want to classify our new porduct based on the previous products.
+      Prediction: We want to estimate how our new product fares
+      n --> 20 products
+      p --> price, marketing budget, competition price + 10 others
+
+(c) - Regression: Again, we are interested in numerical results.
+      Prediction
+      n --> weekly data of 2012
+      p --> % change in US, UK and DE markets
+      
+3.
+(a)
